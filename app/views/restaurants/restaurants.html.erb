@@ -1,0 +1,9 @@
+<%= simple_form_for(@restaurant) %>
+  <%= f.input :name %>
+  <%= f.input :address %>
+  <%= f.input :phone_number %>
+  <%= f.input :category %>
+  <%= f.input :reviews %>
+  <%= f.input :content %>
+  <%= f.submit "Submit", class: "btn btn-primary" %>
+<% end %>
